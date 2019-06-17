@@ -26,11 +26,11 @@ $ keytool -export -alias client -file client.crt -keystore client-keystore.p12
 
 $ keytool -export -alias server -file server.crt -keystore server-keystore.p12
 
-# Import Client Cert to Server jks File:
+# Import Client Cert to server-keystore PKCS12 File:
 
 $ keytool -import -alias client -file client.crt -keystore server-keystore.p12
 
-# Import Server Cert to Client jks File:
+# Import Server Cert to client-keystore PKCS12 File:
 
 $ keytool -import -alias server -file server.crt -keystore client-keystore.p12
 
