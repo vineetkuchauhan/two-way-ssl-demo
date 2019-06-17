@@ -1,0 +1,86 @@
+GET https://localhost:8086/client/v1/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-06-17T061305.200.txt
+
+###
+
+GET https://localhost:8085/server/v1/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-06-17T060829.200.txt
+
+###
+
+GET https://localhost:8085/server/v1/test
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET https://localhost:8086/client/v1/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-06-17T060456.200.txt
+
+###
+
+GET http://localhost:8086/client/v1/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-06-17T060440.400.txt
+
+###
+
+GET https://localhost:8086/client/v1/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-06-17T060434-1.200.txt
+
+###
+
+GET https://localhost:8086/client/v1/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-06-17T060434.200.txt
+
+###
+
+GET https://localhost:8086/client/v1/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-06-17T060433.200.txt
+
+###
+
+GET https://localhost:8086/client/v1/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-06-17T055850.200.txt
+
+###
+
+GET https://localhost:8085/server/v1/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-06-17T055608.200.txt
+
+###
+
+GET http://localhost:8085/server/v1/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-06-17T055600.400.txt
+
+###
+
